@@ -1,6 +1,6 @@
 
-const data="develarash@gmail.com"
-
+// const data="develarash@gmail.com"
+export function getnickname(data){
 var arr= []
 
 for (var i = 0; i < data.length; i++) {
@@ -13,4 +13,4 @@ for (var i = 0; i < data.length; i++) {
     arr.push(data.charAt(i));
 
     console.log(arr);
-  }
+  }}
